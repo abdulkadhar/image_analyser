@@ -21,6 +21,14 @@ Please do use the below command for the installing the packages.
 - NVIDIA A6000
 - NVIDIA H100
 
+## List of commands executed
+pip uninstall -y transformers && pip install git+https://github.com/huggingface/transformers
+pip install accelerate
+pip install flash-attn --no-build-isolation
+
+
+
+
 
 
 
