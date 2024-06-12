@@ -25,6 +25,7 @@ Please do use the below command for the installing the packages.
 pip uninstall -y transformers && pip install git+https://github.com/huggingface/transformers
 pip install accelerate
 pip install flash-attn --no-build-isolation
+pip install accelerate
 
 
 
